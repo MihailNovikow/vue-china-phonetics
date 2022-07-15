@@ -1,6 +1,7 @@
 <template>
  <div class="app">
   <HeaderComp></HeaderComp>
+  
   <PhoneticsPage></PhoneticsPage>
   </div>
     
@@ -24,7 +25,14 @@ export default {
 * {
   box-sizing: border-box;
 }
-
+.bg-white {
+        display: flex;
+        display: flex;
+        background: #F9F9F9;
+        border-radius: 21px;
+        flex-direction: column;
+        align-items: center;
+    }
 .page {
   background: #AFB9FF;
   max-width: 960px;

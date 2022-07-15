@@ -1,5 +1,5 @@
 <template>
-    <div id="app"><div class="bg-white-cont">
+    <div id="app">
         <div class="bg-white">
 
             <h1 class="title-1">Chinese Pronunciation</h1>
@@ -691,12 +691,15 @@
                 </div>
             </div>
             <div class="btn-toggle-cont">
-                <button type="button" class="btn-toggle"><img src="@/assets/prev.svg">Previous Section</button>
-                <button type="button" class="btn-toggle">Next section<img src="@/assets/next.svg"></button>
+                <button type="button" class="btn-toggle"><img src="@/assets/prev.svg" class="btn-img">Previous
+                    Section</button>
+                <button type="button" class="btn-toggle">Next section<img src="@/assets/next.svg"
+                        class="btn-img"></button>
             </div>
-        
-        </div></div>
+
+        </div>
     </div>
+
 
 </template>
 <script>
@@ -705,33 +708,30 @@ export default {
 }
 </script>
 
-    <style>
+    <style scoped>
+    * {
+        background: #F9F9F9;
+    }
+    
     .bg-white-cont {
         background: transparent;
     }
-    .bg-white {
-        display: flex;
-        display: flex;
-        background: #F9F9F9;
-        border-radius: 21px;
-        flex-direction: column;
-        align-items: center;
-    }
+    
     
     .title-1 {
-    margin-top: 66px;
-    width: 350px;
-    height: 37px;
-    left: 785px;
-    top: 237px;
-    font-family: 'Montserrat Alternates';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 37px;
-    color: #373C65;
-    background: #F9F9F9;
-}
+        margin-top: 66px;
+        width: 350px;
+        height: 37px;
+        left: 785px;
+        top: 237px;
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        color: #373C65;
+        background: #F9F9F9;
+    }
     
     .descr-1 {
     
@@ -762,11 +762,11 @@ export default {
     }
     
     /*.table th {
-          font-weight: bold;
-          padding: 5px;
-          background: #efefef;
-          border: 1px solid #dddddd;
-       } */
+              font-weight: bold;
+              padding: 5px;
+              background: #efefef;
+              border: 1px solid #dddddd;
+           } */
     
     .table td {
         border: 1px solid #dddddd;
@@ -1293,11 +1293,11 @@ export default {
     }
     
     .btn-toggle-cont {
-    display: flex;
-    flex-direction: row;
-    background: #F9F9F9;
-    margin-bottom: 133px;
-}
+        display: flex;
+        flex-direction: row;
+        background: #F9F9F9;
+        margin-bottom: 133px;
+    }
     
     .btn-toggle {
         margin-left: 84px;
@@ -1333,5 +1333,9 @@ export default {
     .t-symbol {
         margin-left: 61px;
         background: #F9F9F9;
+    }
+    
+    .btn-img {
+        background: transparent;
     }
     </style>
