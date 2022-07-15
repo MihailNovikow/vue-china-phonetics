@@ -719,25 +719,19 @@ export default {
     }
     
     .title-1 {
-    
-        width: 350px;
-        height: 37px;
-        left: 785px;
-        top: 237px;
-    
-        /* Заголовок 1 */
-    
-        font-family: 'Montserrat Alternates';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 37px;
-        /* identical to box height */
-    
-    
-        color: #373C65;
-        background: #F9F9F9;
-    }
+    margin-top: 66px;
+    width: 350px;
+    height: 37px;
+    left: 785px;
+    top: 237px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #373C65;
+    background: #F9F9F9;
+}
     
     .descr-1 {
     
@@ -1299,10 +1293,11 @@ export default {
     }
     
     .btn-toggle-cont {
-        display: flex;
-        flex-direction: row;
-        background: #F9F9F9;
-    }
+    display: flex;
+    flex-direction: row;
+    background: #F9F9F9;
+    margin-bottom: 133px;
+}
     
     .btn-toggle {
         margin-left: 84px;
