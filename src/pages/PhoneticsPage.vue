@@ -361,7 +361,7 @@
             </div>
             <div class="table-section">
                 <div class="t-s-1">
-                    <tr>
+                    
 
                         <td>
                             <p class="t-symbol">a</p>
@@ -378,149 +378,37 @@
                         <td>
                             <p class="t-symbol">ang</p>
                         </td>
-                    </tr>
+                    
                 </div>
 
                 <hr class="hr-1">
                 <div class="t-s-1">
                     <td>
-                        <p class="t-symbol">a</p>
+                        <p class="t-symbol-1">a</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">ai</p>
+                        <p class="t-symbol-1">ai</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">ao</p>
+                        <p class="t-symbol-1">ao</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">an</p>
+                        <p class="t-symbol-1">an</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">ang</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-
-                </div>
-                <hr class="hr-1">
-                <div class="t-s-1">
-                    <td>
-                        <p class="t-symbol">b</p>
-
-                    </td>
-                    <td>
-                        <p class="t-symbol">ba</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">bai</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">bao</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">ban</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">bang</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                </div>
-                <hr class="hr-1">
-                <div class="t-s-1">
-                    <td>
-                        <p class="t-symbol">p</p>
-
-                    </td>
-                    <td>
-                        <p class="t-symbol">pa</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">pai</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">pao</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">pan</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">pang</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                </div>
-                <hr class="hr-1">
-                <div class="t-s-1">
-                    <td>
-                        <p class="t-symbol">m</p>
-
-                    </td>
-                    <td>
-                        <p class="t-symbol">ma</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">mai</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">mao</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">man</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">mang</p>
+                        <p class="t-symbol-1">ang</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
@@ -530,35 +418,109 @@
                 <hr class="hr-1">
                 <div class="t-s-1">
                     <td>
-                        <p class="t-symbol">f</p>
+                        <p class="t-symbol-1">b</p>
 
                     </td>
                     <td>
-                        <p class="t-symbol">fa</p>
+                        <p class="t-symbol-1">ba</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">fai</p>
+                        <p class="t-symbol-1">bai</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">fao</p>
+                        <p class="t-symbol-1">bao</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">fan</p>
+                        <p class="t-symbol-1">ban</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">fang</p>
+                        <p class="t-symbol-1">bang</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                </div>
+                <hr class="hr-1">
+                <div class="t-s-1">
+                    <td>
+                        <p class="t-symbol-1">p</p>
+
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">pa</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">pai</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">pao</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">pan</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">pang</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                </div>
+                <hr class="hr-1">
+                <div class="t-s-1">
+                    <td>
+                        <p class="t-symbol-1">m</p>
+
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">ma</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">mai</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">mao</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">man</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">mang</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
@@ -568,73 +530,35 @@
                 <hr class="hr-1">
                 <div class="t-s-1">
                     <td>
-                        <p class="t-symbol">d</p>
+                        <p class="t-symbol-1">f</p>
 
                     </td>
                     <td>
-                        <p class="t-symbol">da</p>
+                        <p class="t-symbol-1">fa</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">dai</p>
+                        <p class="t-symbol-1">fai</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">dao</p>
+                        <p class="t-symbol-1">fao</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">dan</p>
+                        <p class="t-symbol-1">fan</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">dang</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-
-                </div>
-                <hr class="hr-1">
-                <div class="t-s-1">
-                    <td>
-                        <p class="t-symbol">t</p>
-
-                    </td>
-                    <td>
-                        <p class="t-symbol">ta</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">tai</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">tao</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">tan</p>
-                        <button class="btn-play">
-                            <div class="play"></div>
-                        </button>
-                    </td>
-                    <td>
-                        <p class="t-symbol">tang</p>
+                        <p class="t-symbol-1">fang</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
@@ -644,35 +568,35 @@
                 <hr class="hr-1">
                 <div class="t-s-1">
                     <td>
-                        <p class="t-symbol">n</p>
+                        <p class="t-symbol-1">d</p>
 
                     </td>
                     <td>
-                        <p class="t-symbol">na</p>
+                        <p class="t-symbol-1">da</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">nai</p>
+                        <p class="t-symbol-1">dai</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">nao</p>
+                        <p class="t-symbol-1">dao</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">nan</p>
+                        <p class="t-symbol-1">dan</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">nang</p>
+                        <p class="t-symbol-1">dang</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
@@ -682,35 +606,111 @@
                 <hr class="hr-1">
                 <div class="t-s-1">
                     <td>
-                        <p class="t-symbol">l</p>
+                        <p class="t-symbol-1">t</p>
 
                     </td>
                     <td>
-                        <p class="t-symbol">la</p>
+                        <p class="t-symbol-1">ta</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">lai</p>
+                        <p class="t-symbol-1">tai</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">lao</p>
+                        <p class="t-symbol-1">tao</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">lan</p>
+                        <p class="t-symbol-1">tan</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
                     </td>
                     <td>
-                        <p class="t-symbol">lang</p>
+                        <p class="t-symbol-1">tang</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+
+                </div>
+                <hr class="hr-1">
+                <div class="t-s-1">
+                    <td>
+                        <p class="t-symbol-1">n</p>
+
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">na</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">nai</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">nao</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">nan</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">nang</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+
+                </div>
+                <hr class="hr-1">
+                <div class="t-s-1">
+                    <td>
+                        <p class="t-symbol-1">l</p>
+
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">la</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">lai</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class="t-symbol-1">lao</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class=".t-symbol-1">lan</p>
+                        <button class="btn-play">
+                            <div class="play"></div>
+                        </button>
+                    </td>
+                    <td>
+                        <p class=".t-symbol-1">lang</p>
                         <button class="btn-play">
                             <div class="play"></div>
                         </button>
@@ -738,7 +738,7 @@ export default {
 
     <style scoped>
     * {
-        background: #F9F9F9;
+        background: transparent;
     }
     
     .bg-white-cont {
@@ -805,7 +805,10 @@ export default {
         border: 1px solid #dddddd;
         padding: 5px;
     }
-    
+    tr {
+        display: flex;
+        flex-direction: row;
+    }
     .table-a {
         width: 50px;
         height: 80px;
@@ -1367,7 +1370,10 @@ export default {
         margin-left: 61px;
         background: #F9F9F9;
     }
-    
+    .t-symbol-1 {
+    margin-left: 25px;
+    margin-right: 8px;
+    }
     .btn-img {
         background: transparent;
     }
