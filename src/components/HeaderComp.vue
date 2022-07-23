@@ -1,8 +1,9 @@
 <template>
   <div class="page">
     <nav>
-      <ul class="nav"><img class="header-logo-img" src="../assets/logo.png">
+      <ul class="nav">
         <div class="li-cont">
+          <li><img class="header-logo-img" src="../assets/logo.png"></li>
           <li><a href="#">Тренажеры</a></li>
           <li><a href="#">О Китае</a></li>
           <li><a href="#">Личный кабинет</a></li>
@@ -29,7 +30,6 @@ export default {
 
 
 .header-logo-img {
-    margin-left: -50px;
     display: flex;
     justify-content: space-between;
     width: 129px;
@@ -37,22 +37,25 @@ export default {
 }
 
 .nav {
-  max-width: 960px;
-  margin-top: 37px;
-  margin-bottom: 90px;
-  display: flex;
-  list-style-type: none;
-  background: #AFB9FF;
-  align-items: center;
-  justify-content: center;
+    
+    padding: 0;
+    max-width: 960px;
+    margin-top: 37px;
+    margin-bottom: 90px;
+    display: flex;
+    list-style-type: none;
+    background: #AFB9FF;
+    align-items: center;
+    justify-content: center;
 }
 
 .li-cont {
-    margin-left: 344px;
-    width: 476px;
+    /* margin-left: 344px; */
+    width: 950px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 3%;
 }
 
 li {

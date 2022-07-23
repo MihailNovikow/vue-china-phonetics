@@ -361,39 +361,45 @@
             </div>
             <div class="table-section">
                 <div class="t-s-1">
-                    
 
-                        <td>
-                            <p class="t-symbol">a</p>
-                        </td>
-                        <td>
-                            <p class="t-symbol">ai</p>
-                        </td>
-                        <td>
-                            <p class="t-symbol">ao</p>
-                        </td>
-                        <td>
-                            <p class="t-symbol">an</p>
-                        </td>
-                        <td>
-                            <p class="t-symbol">ang</p>
-                        </td>
-                    
+
+                    <td>
+                        <p class="t-symbol">a</p>
+                    </td>
+                    <td>
+                        <p class="t-symbol">ai</p>
+                    </td>
+                    <td>
+                        <p class="t-symbol">ao</p>
+                    </td>
+                    <td>
+                        <p class="t-symbol">an</p>
+                    </td>
+                    <td>
+                        <p class="t-symbol">ang</p>
+                    </td>
+
                 </div>
 
                 <hr class="hr-1">
                 <div class="t-s-1">
                     <td>
                         <p class="t-symbol-1">a</p>
-                        <button class="btn-play">
+                       <button type="button" class="btn-play">
+                        <audio src="@/assets/moon-sonata.mp3"></audio>
+                        
                             <div class="play"></div>
                         </button>
+                        
                     </td>
                     <td>
                         <p class="t-symbol-1">ai</p>
                         <button class="btn-play">
+                            <audio src="@/assets/moon-sonata.mp3"></audio>
+                        
                             <div class="play"></div>
                         </button>
+                
                     </td>
                     <td>
                         <p class="t-symbol-1">ao</p>
@@ -745,12 +751,13 @@ export default {
         background: transparent;
     }
     
-    .text-cont{
+    .text-cont {
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
     }
+    
     .title-1 {
         margin-top: 66px;
         width: 350px;
@@ -795,20 +802,22 @@ export default {
     }
     
     /*.table th {
-                  font-weight: bold;
-                  padding: 5px;
-                  background: #efefef;
-                  border: 1px solid #dddddd;
-               } */
+                      font-weight: bold;
+                      padding: 5px;
+                      background: #efefef;
+                      border: 1px solid #dddddd;
+                   } */
     
     .table td {
         border: 1px solid #dddddd;
         padding: 5px;
     }
+    
     tr {
         display: flex;
         flex-direction: row;
     }
+    
     .table-a {
         width: 50px;
         height: 80px;
@@ -1197,9 +1206,6 @@ export default {
     .title-5 {
         width: 166px;
         height: 28px;
-        left: 583px;
-        top: 1936px;
-    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -1213,17 +1219,11 @@ export default {
     .descr-5 {
         width: 513px;
         height: 19px;
-        left: 583px;
-        top: 1984px;
-    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
-        /* identical to box height */
-    
-    
         color: #383D63;
         background: #F9F9F9;
     }
@@ -1233,20 +1233,17 @@ export default {
         height: 19px;
         left: 583px;
         top: 2236px;
-    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
-        /* identical to box height */
-    
-    
         color: #383D63;
         background: #F9F9F9;
     }
     
     .rectangle-1 {
+        padding: 33px;
         border: 2px solid gray;
         border-radius: 10px;
         display: flex;
@@ -1256,20 +1253,18 @@ export default {
     }
     
     .rectangle-1-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 185px;
         height: 46px;
-        left: 868px;
-        top: 1379px;
-    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
         text-align: center;
-    
         color: #383D63;
-    
         background: #F9F9F9;
     }
     
@@ -1302,6 +1297,10 @@ export default {
     }
     
     .rectangle-2 {
+        padding-top: 33px;
+        padding-bottom: 33px;
+        padding-left: 45px;
+        padding-right: 45px;
         border: 2px solid gray;
         border-radius: 10px;
         display: flex;
@@ -1311,22 +1310,21 @@ export default {
         background: #F9F9F9;
     }
     
-    .rectangle-2-text {
-        width: 161px;
-        height: 65px;
-        left: 880px;
-        top: 2070px;
-    
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-    
-        color: #383D63;
-        background: #F9F9F9;
-    }
+    .rectangle-2-text{
+    display: flex;
+    width: 161px;
+    height: 65px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #383D63;
+    background: #F9F9F9;
+    align-items: center;
+    justify-content: center;
+}
     
     .btn-toggle-cont {
         display: flex;
@@ -1335,20 +1333,21 @@ export default {
         margin-bottom: 133px;
     }
     
-    .btn-toggle {
-        margin-left: 84px;
-        width: 136.5px;
-        height: 43.5px;
-        left: 1014px;
-        top: 2757px;
-        border: 1px solid transparent;
-        background: #AFB9FF;
-        border-radius: 27.375px;
-        display: flex;
-        cursor: pointer;
-        align-items: center;
-        justify-content: center;
-    }
+    .btn-toggle{
+    gap: 5%;
+    margin-left: 84px;
+    width: 136.5px;
+    height: 43.5px;
+    left: 1014px;
+    top: 2757px;
+    border: 1px solid transparent;
+    background: #AFB9FF;
+    border-radius: 27.375px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
     
     .btn-play {
         width: 23px;
@@ -1370,10 +1369,12 @@ export default {
         margin-left: 61px;
         background: #F9F9F9;
     }
+    
     .t-symbol-1 {
-    margin-left: 25px;
-    margin-right: 8px;
+        margin-left: 25px;
+        margin-right: 8px;
     }
+    
     .btn-img {
         background: transparent;
     }
