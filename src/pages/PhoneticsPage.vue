@@ -1378,4 +1378,5 @@ export default {
     .btn-img {
         background: transparent;
     }
+    
     </style>

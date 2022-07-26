@@ -1,7 +1,6 @@
 <template>
  <div class="app">
   <HeaderComp></HeaderComp>
-  
   <PhoneticsPage></PhoneticsPage>
   </div>
     
@@ -22,6 +21,7 @@ export default {
 </script>
 
 <style>
+@media (max-width: 960px) {
 * {
   box-sizing: border-box;
 }
@@ -79,5 +79,5 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Roboto&display=swap');
 
-@media (max-width: 960px) {}
+}
 </style>
