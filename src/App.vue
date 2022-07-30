@@ -1,31 +1,41 @@
 <template>
- <div class="app">
+ 
   <HeaderComp></HeaderComp>
-  <PhoneticsPage></PhoneticsPage>
-  </div>
+  <router-view />
+  
+  
     
 </template>
 
 <script>
 
 import HeaderComp from './components/HeaderComp.vue';
-import PhoneticsPage from './pages/PhoneticsPage.vue';
+
 export default {
   name: 'App',
   components: {
     HeaderComp,
-    PhoneticsPage,
+    
   },
   
 }
 </script>
 
 <style>
-@media (max-width: 960px) {
-* {
-  box-sizing: border-box;
+@media screen and (max-width: 960px)
+  {* {
+width: 100%;
+ box-sizing: border-box;
+ 
 }
-.bg-white {
+}
+* {
+
+ box-sizing: border-box;
+ 
+}
+
+  .bg-white {
         display: flex;
         display: flex;
         background: #F9F9F9;
@@ -33,10 +43,13 @@ export default {
         flex-direction: column;
         align-items: center;
     }
-.page {
+    .page {
   background: #AFB9FF;
-  max-width: 960px;
+  
 }
+  
+
+
 
 .bg-white {
   display: flex;
@@ -79,5 +92,5 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Roboto&display=swap');
 
-}
+
 </style>

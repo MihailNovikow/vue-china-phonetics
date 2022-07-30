@@ -3,10 +3,14 @@
     <nav>
       <ul class="nav">
         <div class="li-cont">
-          <li><img class="header-logo-img" src="../assets/logo.png"></li>
-          <li><a href="#">Тренажеры</a></li>
-          <li><a href="#">О Китае</a></li>
-          <li><a href="#">Личный кабинет</a></li>
+          <div class="li-cont-left">
+            <li><img class="header-logo-img" src="../assets/logo.png"></li>
+          </div>
+          <div class="li-cont-right">
+            <li><a href="#">Тренажеры</a></li>
+            <li><a href="#">О Китае</a></li>
+            <li><a href="#">Личный кабинет</a></li>
+          </div>
         </div>
       </ul>
     </nav>
@@ -30,32 +34,41 @@ export default {
 
 
 .header-logo-img {
-    display: flex;
-    justify-content: space-between;
-    width: 129px;
-    height: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 129px;
+  height: 50px;
 }
 
 .nav {
-    
-    padding: 0;
-    max-width: 960px;
-    margin-top: 37px;
-    margin-bottom: 90px;
-    display: flex;
-    list-style-type: none;
-    background: #AFB9FF;
-    align-items: center;
-    justify-content: center;
+
+  padding: 0;
+  max-width: 960px;
+  margin-top: 37px;
+  margin-bottom: 90px;
+  display: flex;
+  list-style-type: none;
+  background: #AFB9FF;
+  align-items: center;
+  justify-content: center;
 }
 
 .li-cont {
-    /* margin-left: 344px; */
-    width: 950px;
+ 
+  width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.li-cont-left {}
+
+.li-cont-right {
     display: flex;
+    gap: 25%;
     align-items: center;
-    /* justify-content: space-between; */
-    gap: 3%;
+    justify-content: center;
 }
 
 li {
