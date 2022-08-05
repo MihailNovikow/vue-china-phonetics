@@ -386,67 +386,56 @@
             <div class="t-s-1">
                
                <td>
-                <player-controls-bars
-        :loop="loop"
-        :shuffle="shuffle"
-        :progress="progress"
-        @playtrack="play"
-        @pausetrack="pause"
-        @stoptrack="stop"
-        @skiptrack="skip"
-        @toggleloop="toggleLoop"
-        @toggleshuffle="toggleShuffle"
-        @updateseek="setSeek">
-        </player-controls-bars>
+          
                     <p class="t-symbol-1">a</p>
-                    <button type="button" class="btn-play">
-                        <PlayerControlsBars src="@/assets/moon-sonata.mp3"></PlayerControlsBars>
-
-                        <div class="play"></div>
+                    <button class="btn-play">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
+                            <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
+                            <div class="play"></div>
+                        </audio>
                     </button>
 
                 </td>
                 <td>
                     <p class="t-symbol-1">ai</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-    <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
-    <source src="PlayerControlsBars/music.mp3" type="PlayerControlsBars/mpeg">
-    Тег PlayerControlsBars не поддерживается вашим браузером. 
-    <a href="PlayerControlsBars/music.mp3">Скачайте музыку</a>.
-  </PlayerControlsBars>
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
+                            <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
+                            <div class="play"></div>
+                        </audio>
                     </button>
 
                 </td>
                 <td>
                     <p class="t-symbol-1">ao</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            @playtrack="play",@pausetrack="pause", @stoptrack="stop"
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">an</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">ang</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
 
@@ -460,51 +449,51 @@
                 <td>
                     <p class="t-symbol-1">ba</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">bai</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">bao</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">ban</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">bang</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
             </div>
@@ -517,51 +506,51 @@
                 <td>
                     <p class="t-symbol-1">pa</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">pai</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">pao</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">pan</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">pang</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
             </div>
@@ -574,51 +563,51 @@
                 <td>
                     <p class="t-symbol-1">ma</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">mai</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">mao</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">man</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">mang</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
 
@@ -632,51 +621,51 @@
                 <td>
                     <p class="t-symbol-1">fa</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">fai</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">fao</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">fan</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">fang</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
 
@@ -690,51 +679,51 @@
                 <td>
                     <p class="t-symbol-1">da</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">dai</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">dao</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">dan</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">dang</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
 
@@ -748,52 +737,52 @@
                 <td>
                     <p class="t-symbol-1">ta</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">tai</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">tao</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">tan</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">tang</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
+                        <audio>
                             
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
 
@@ -807,51 +796,51 @@
                 <td>
                     <p class="t-symbol-1">na</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">nai</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">nao</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">nan</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">nang</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
 
@@ -860,56 +849,63 @@
             <div class="t-s-1">
                 <td>
                     <p class="t-symbol-1">l</p>
+                    <button class="btn-play">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
+                            <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
+                            <div class="play"></div>
+                        </audio>
+                    </button>
 
                 </td>
                 <td>
                     <p class="t-symbol-1">la</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">lai</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class="t-symbol-1">lao</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class=".t-symbol-1">lan</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
                 <td>
                     <p class=".t-symbol-1">lang</p>
                     <button class="btn-play">
-                        <PlayerControlsBars>
-                            <source src="@/assets/moon-sonata.mp3" type="PlayerControlsBars/mp3; codecs=vorbis">
+                        <audio>
+                            <source src="@/assets/moon-sonata.mp3" type="audio/mp3; codecs=vorbis">
                             <a href="@/assets/moon-sonata.mp3">Скачайте музыку</a>.
                             <div class="play"></div>
-                        </PlayerControlsBars>
+                        </audio>
                     </button>
                 </td>
 
@@ -927,98 +923,7 @@
 
 </template>
 <script>
-import PlayerControlsBars from '../components/PlayerControlsBars.vue';
 
-export default {
-    computed: {
-        currentTrack() {
-            return this.playlist[this.index];
-        }
-    },
-    components: { PlayerControlsBars },
-    methods: {
-      selectTrack (track) {
-        this.selectedTrack = track
-      },
-      play (index) {
-        let selectedTrackIndex = this.playlist.findIndex(track => track === this.selectedTrack)
-
-        if (typeof index === 'number') {
-          index = 'number'
-        } else if (this.selectedTrack) {
-          if (this.selectedTrack != this.currentTrack) {
-            this.stop()
-          }
-          index = selectedTrackIndex
-        } else {
-          index = this.index
-        }
-
-        let track = this.playlist[index].howl
-
-        if (track.playing()) {
-          return
-        } else {
-          track.play()
-        }
-        
-        this.selectedTrack = this.playlist[index]
-        this.playing = true
-        this.index = index
-      },
-      pause () {
-        this.currentTrack.howl.pause()
-        this.playing = false
-      },
-      stop () {
-        this.currentTrack.howl.stop()
-        this.playing = false
-      },
-      skip (direction) {
-        let index = 0,
-            lastIndex = this.playlist.length - 1
-
-        if (this.shuffle) {
-          index = Math.round(Math.random() * lastIndex)
-          while (index === this.index) {
-            index = Math.round(Math.random() * lastIndex)
-          }
-        } else if (direction === "next") {
-          index = this.index + 1
-          if (index >= this.playlist.length) {
-            index = 0
-          }
-        } else {
-          index = this.index - 1
-          if (index < 0) {
-            index = this.playlist.length - 1
-          }
-        }
-
-        this.skipTo(index)
-      },
-      skipTo (index) {
-        if (this.currentTrack) {
-          this.currentTrack.howl.stop()
-        }
-
-        this.play(index)
-      },
-      toggleLoop (value) {
-        this.loop = value
-      },
-      toggleShuffle (value) {
-        this.shuffle = value
-      },
-      setSeek (percents) {
-        let track = this.currentTrack.howl
-
-        if (track.playing()) {
-          track.seek((track.duration() / 100) * percents)
-        }
-      }
-    }
-}
 </script>
 
     <style scoped>
@@ -1565,12 +1470,13 @@ width: 100%;
     }
     
     .t-s-1 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        background: #F9F9F9;
-    }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #F9F9F9;
+    width: 500px;
+}
     
     .hr-1 {
         width: 392px;
@@ -1634,7 +1540,7 @@ width: 100%;
         justify-content: center;
     }
     
-    .btn-play, PlayerControlsBars {
+    .btn-play, audio {
         width: 23px;
         height: 23px;
         border: 1px solid transparent;

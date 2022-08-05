@@ -58,6 +58,7 @@ export default {
   width: 960px;
   display: flex;
   align-items: center;
+  gap: 3%;
   justify-content: space-between;
   
 }
@@ -66,14 +67,16 @@ export default {
 
 .li-cont-right {
     display: flex;
-    gap: 25%;
+    gap: 3%;
     align-items: center;
     justify-content: center;
 }
 
 li {
-  display: flex;
-  flex-wrap: nowrap;
+    margin-right: 3%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 3%;
 }
 
 a {

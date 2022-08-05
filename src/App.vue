@@ -23,12 +23,9 @@ export default {
 
 <style>
 @media screen and (max-width: 960px)
-  {* {
-width: 100%;
- box-sizing: border-box;
- 
-}
-}
+  {}
+
+
 * {
 
  box-sizing: border-box;
@@ -36,7 +33,6 @@ width: 100%;
 }
 
   .bg-white {
-        display: flex;
         display: flex;
         background: #F9F9F9;
         border-radius: 21px;
@@ -52,7 +48,6 @@ width: 100%;
 
 
 .bg-white {
-  display: flex;
   display: flex;
   background: #F9F9F9;
   border-radius: 21px;
