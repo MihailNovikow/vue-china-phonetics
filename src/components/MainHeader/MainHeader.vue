@@ -3,7 +3,7 @@
     <header class="header">
       <div class="header__wrap">
         <router-link to="/" class="logowrap">
-          <img src="" alt="logo" class="logo" />
+          <img src="../../assets/img/train-2.png" alt="logo" class="logo" />
         </router-link>
         <nav class="menu">
           <ul class="menu__ul">

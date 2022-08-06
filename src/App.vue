@@ -41,6 +41,8 @@ export default {
     }
     .page {
   background: #AFB9FF;
+  max-width: 960px;
+  margin:0 auto;
   
 }
   
