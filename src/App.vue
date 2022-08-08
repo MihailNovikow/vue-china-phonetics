@@ -24,8 +24,18 @@ export default {
 <style>
 @media screen and (max-width: 960px)
   {}
+@media (min-width: 992px) {
+.offset-lg-2 {
+    margin-left: 16.66667%;
+}
+}
 
-
+@media (min-width: 992px) {
+.col-lg-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+}
 * {
 
  box-sizing: border-box;

@@ -1,6 +1,9 @@
 <template>
 	<div>
-		<h1>Hello it's Phonetics Audio 1</h1>
+		<h1><div class="table-a">
+				<p class="a">A</p>
+				<p class="a-descr">with Easy Consonants</p>
+			</div></h1>
 		<PagePhonetics />
 		<AudioComponent />
 	</div>

@@ -3,7 +3,7 @@
 		<div class="table-section">
 			<div class="t-s-1">
 				<td>
-					<p class="t-symbol">Я помню чудное мгновенье</p>
+					<div class="t-symbol">a</div>
 				</td>
 				<td>
 					<p class="t-symbol">ai</p>

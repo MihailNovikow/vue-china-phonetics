@@ -12,18 +12,49 @@
 			<router-link to="/phonetics2">
 				<div class="main__inner">2</div>
 			</router-link>
-			<router-link to="">
+			<router-link to="/phonetics3">
 				<div class="main__inner">3</div>
 			</router-link>
-			<router-link to="">
+			<router-link to="/phonetics4">
 				<div class="main__inner">4</div>
 			</router-link>
-			<router-link to="">
+			<router-link to="/phonetics5">
 				<div class="main__inner">5</div>
 			</router-link>
-			<router-link to="">
+			<router-link to="/phonetics6">
 				<div class="main__inner">6</div>
 			</router-link>
+			<router-link to="/phonetics7">
+				<div class="main__inner">7</div>
+			</router-link>
+			<router-link to="/phonetics8">
+				<div class="main__inner">8</div>
+			</router-link>
+			<router-link to="/phonetics9">
+				<div class="main__inner">9</div>
+			</router-link>
+			<router-link to="/phonetics10">
+				<div class="main__inner">10</div>
+			</router-link>
+			<router-link to="/phonetics11">
+				<div class="main__inner">11</div>
+			</router-link>
+			<router-link to="/phonetics12">
+				<div class="main__inner">12</div>
+			</router-link>
+			<router-link to="/phonetics13">
+				<div class="main__inner">13</div>
+			</router-link>
+			<router-link to="/phonetics14">
+				<div class="main__inner">14</div>
+			</router-link>
+			<router-link to="/phonetics15">
+				<div class="main__inner">15</div>
+			</router-link>
+			<router-link to="/phonetics16">
+				<div class="main__inner">16</div>
+			</router-link>
+			
 		</div>
 
 		<div class="text-cont">
@@ -366,7 +397,8 @@
 		</div>
 	</div>
 </template>
-<script></script>
+<script>
+</script>
 
 <style scoped>
 @media screen and (max-width: 960px) {
