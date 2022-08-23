@@ -1,67 +1,51 @@
 <template>
- 
-  <HeaderComp></HeaderComp>
-  <router-view />
-  
-  
-    
+  <div class="page">
+    <MainHeader></MainHeader>
+    <div class="bg-white">
+      <router-view />
+    </div>
+  </div>
 </template>
 
 <script>
-
-import HeaderComp from './components/HeaderComp.vue';
+import MainHeader from "./components/MainHeader/MainHeader.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HeaderComp,
-    
+    MainHeader,
   },
-  
-}
+};
 </script>
 
 <style>
-@media screen and (max-width: 960px)
-  {}
-@media (min-width: 992px) {
-.offset-lg-2 {
-    margin-left: 16.66667%;
+@media screen and (max-width: 960px) {
 }
+@media (min-width: 992px) {
+  .offset-lg-2 {
+    margin-left: 16.66667%;
+  }
 }
 
 @media (min-width: 992px) {
-.col-lg-8 {
+  .col-lg-8 {
     flex: 0 0 66.66667%;
     max-width: 66.66667%;
-}
+  }
 }
 * {
-
- box-sizing: border-box;
- 
+  box-sizing: border-box;
 }
 
-  .bg-white {
-        display: flex;
-        background: #F9F9F9;
-        border-radius: 21px;
-        flex-direction: column;
-        align-items: center;
-    }
-    .page {
-  background: #AFB9FF;
+.page {
+  background: #afb9ff;
   max-width: 960px;
-  margin:0 auto;
-  
+  margin: 0 auto;
 }
-  
-
-
 
 .bg-white {
   display: flex;
-  background: #F9F9F9;
+  background: #f9f9f9;
   border-radius: 21px;
   flex-direction: column;
   align-items: center;
@@ -87,17 +71,74 @@ export default {
   margin-right: 325px;
   margin-top: 78px;
   display: flex;
-  font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
-  background: #F9F9F9;
-  color: #373C65;
+  background: #f9f9f9;
+  color: #373c65;
+}
+.title-1 {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+
+  color: #373c65;
+}
+.descr-1 {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #373c65;
+}
+.t-symbol {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #383d63;
+}
+.t-symbol-1 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: right;
+
+color: #383D63;
+}
+.btn-play,
+audio {
+  width: 23px;
+  height: 23px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background: #a6f80f;
+  cursor: pointer;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Roboto&display=swap');
+.play {
+  border: 7px solid transparent;
+  border-left: 9px solid rgb(236, 16, 16);
+  cursor: pointer;
+  background: transparent;
+}
 
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Roboto&display=swap");
 </style>

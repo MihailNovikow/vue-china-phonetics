@@ -3,7 +3,7 @@
     <header class="header">
       <div class="header__wrap">
         <router-link to="/" class="logowrap">
-          <img src="../../assets/img/train-2.png" alt="logo" class="logo" />
+          <img src="../../assets/logo.png" alt="logo" class="logo" />
         </router-link>
         <nav class="menu">
           <ul class="menu__ul">
@@ -88,12 +88,24 @@ export default {
   align-items: center;
   margin: 0 auto;
 }
+.menu {
+	padding: 0;
+	max-width: 960px;
+	margin-top: 37px;
+	margin-bottom: 90px;
+	display: flex;
+	list-style-type: none;
+	background: #afb9ff;
+	align-items: center;
+	justify-content: center;
+}
 .menu__li {
   font-family: 'MontserratAlternates', sans-serif;
   font-weight: 600;
   padding: 25px 10px;
   margin: 0 15px;
   cursor: pointer;
+  list-style-type: none;
 }
 
 .menu__li:last-of-type {
@@ -102,19 +114,44 @@ export default {
 
 #white__text {
   color: #fff;
+  text-decoration: none;
+
 }
 #black__text {
   color: #000;
+  text-decoration: none;
 }
+
 #black__text:hover {
   border-bottom: 2px solid #000;
+  display: block;
+	
 }
-.menu__li a:hover {
-  border-bottom: 2px solid #fff;
+.menu__li a {
+	font-family: 'Montserrat Alternates';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	position: relative;
+	color: #ffffff;
+	cursor: pointer;
+	text-decoration: none;
 }
-.menu__li a:last-child {
-  margin-right: 0;
-  padding-right: 0;
+.menu__li a:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 3px;
+	margin-top: 7px;
+	background-color: #ffffff;
+	content: '';
+	transition: width 0.3s ease-out;
+}
+.menu__li a:focus:after,
+.menu__li a:hover:after {
+	width: 100%;
 }
 .menu__ul {
   display: -webkit-box;
@@ -122,6 +159,7 @@ export default {
   display: flex;
   -ms-flex-direction: row;
   flex-direction: row;
+  list-style-type: none;
 }
 @media screen and (max-width: 1024px) {
   html body {
@@ -140,14 +178,17 @@ export default {
   }
   .header__wrap,
   .menu__ul {
-    text-align: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .menu__li {
-    padding: 15px 10px;
-  }
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+  .menu__li{
+    font-family: 'MontserratAlternates', sans-serif;
+    font-weight: 600;
+    padding: 25px 10px;
+    margin: 0 15px;
+    cursor: pointer;
+    list-style-type: none;
+}
 }
 </style>

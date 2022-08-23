@@ -1,14 +1,14 @@
 <template>
-  <div>
-    <header class="header">
-      <div class="header__wrap">
-        <router-link to="/" class="logowrap">
-          <img src="" alt="logo" class="logo" />
-        </router-link>
-        <nav class="menu">
-          <ul class="menu__ul">
-            <li class="menu__li">
-              <router-link
+	<div class="page">
+		<nav class="nav">
+			<div class="li-cont">
+				<div class="li-cont-left">
+					<img class="header-logo-img" src="../assets/logo.png" />
+				</div>
+				<div class="li-cont-right">
+          
+          <li>
+						<router-link
                 to="/menu"
                 :id="[blackText ? 'black__text' : 'white__text']"
                 >Тренажеры</router-link
@@ -26,128 +26,85 @@
                 to="#"
                 :id="[blackText ? 'black__text' : 'white__text']"
                 >Личный кабинет</router-link
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-  </div>
+              ></li>
+				</div>
+			</div>
+		</nav>
+	</div>
 </template>
-
 <script>
 export default {
-  props: {
-    blackText: Boolean
-  }
-}
+	name: 'HeaderComp',
+	props: {},
+};
 </script>
 
-<style scoped>
-.header,
-.header__wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  flex-direction: row;
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style>
+* {
+	background: #afb9ff;
 }
-.header,
-.header__wrap,
-.menu__ul {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
+.header-logo-img {
+	display: flex;
+	justify-content: space-between;
+	width: 129px;
+	height: 50px;
 }
-.logowrap {
-  width: 64px;
-  height: 64px;
-  margin: 10px 0px;
+.nav {
+	padding: 0;
+	max-width: 960px;
+	margin-top: 37px;
+	margin-bottom: 90px;
+	display: flex;
+	list-style-type: none;
+	background: #afb9ff;
+	align-items: center;
+	justify-content: center;
 }
-.logo {
-  cursor: pointer;
-  width: 100%;
-  height: 100%;
+.li-cont {
+	width: 960px;
+	display: flex;
+	align-items: center;
+	gap: 3%;
+	justify-content: space-between;
 }
-.header {
-  font-family: 'MontserratAlternates', Verdana, Tahoma, sans-serif;
-  display: flex;
-  flex-direction: row;
-  padding-top: 35px;
-  margin-bottom: 40px;
-  font-size: 18px;
-  font-weight: 700;
+.li-cont-right {
+	display: flex;
+	gap: 3%;
+	align-items: center;
+	justify-content: center;
 }
-.header__wrap {
-  max-width: 960px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin: 0 auto;
+li {
+	/* margin-right: 3%; */
+	display: flex;
+	flex-wrap: nowrap;
+	/* margin-left: 3%; */
+	text-align: center;
 }
-.menu__li {
-  font-family: 'MontserratAlternates', sans-serif;
-  font-weight: 600;
-  padding: 25px 10px;
-  margin: 0 15px;
-  cursor: pointer;
+a {
+	font-family: 'Montserrat Alternates';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	position: relative;
+	color: #ffffff;
+	cursor: pointer;
+	text-decoration: none;
 }
-
-.menu__li:last-of-type {
-  margin-right: 0;
+a:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 3px;
+	margin-top: 7px;
+	background-color: #ffffff;
+	content: '';
+	transition: width 0.3s ease-out;
 }
-
-#white__text {
-  color: #fff;
-}
-#black__text {
-  color: #000;
-}
-#black__text:hover {
-  border-bottom: 2px solid #000;
-}
-.menu__li a:hover {
-  border-bottom: 2px solid #fff;
-}
-.menu__li a:last-child {
-  margin-right: 0;
-  padding-right: 0;
-}
-.menu__ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-  flex-direction: row;
-}
-@media screen and (max-width: 1024px) {
-  html body {
-    padding: 0 20px;
-  }
-  .content__wrap {
-    padding: 30px 20px;
-  }
-}
-@media screen and (max-width: 720px) {
-  body {
-    padding: 10px 15px;
-  }
-  .content__wrap {
-    padding: 30px 15px;
-  }
-  .header__wrap,
-  .menu__ul {
-    text-align: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .menu__li {
-    padding: 15px 10px;
-  }
+a:focus:after,
+a:hover:after {
+	width: 100%;
 }
 </style>

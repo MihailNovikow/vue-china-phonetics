@@ -1,15 +1,15 @@
 <template>
-	<div>
-		<PagePhonetics />
-	</div>
+    <PagePhonetics />
 </template>
 
 <script>
-import PagePhonetics from '../components/PhoneticsPageComponent.vue';
+import PagePhonetics from "../components/PhoneticsPageComponent.vue";
 
 export default {
-	components: {
-		PagePhonetics,
-	},
+  components: {
+    PagePhonetics,
+  },
 };
 </script>
+<style>
+</style>
